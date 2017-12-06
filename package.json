@@ -1,0 +1,15 @@
+{
+  "name": "cryptobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gdax-trading-toolkit": "^0.2.1",
+    "limiter": "file:../node-rate-limiter"
+  }
+}
