@@ -1,0 +1,2 @@
+* Go back and unit test doFetch methods
+* Implement an http client (promise based) to binance

@@ -1,15 +1,31 @@
 {
-  "name": "cryptobot",
+  "name": "binance-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A bot that trades technicals on binance",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j03m/cryptobot.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j03m/cryptobot/issues"
+  },
+  "homepage": "https://github.com/j03m/cryptobot#readme",
   "dependencies": {
-    "gdax-trading-toolkit": "^0.2.1",
-    "limiter": "file:../node-rate-limiter"
+    "bollinger-bands": "^3.0.1",
+    "debug": "^3.1.0",
+    "fs-jetpack": "^1.2.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "technicalindicators": "^1.0.21",
+    "yargs": "^10.1.1"
   }
 }

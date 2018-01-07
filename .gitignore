@@ -1,3 +1,6 @@
 node_modules
 gdax-tt
 .idea
+technicalindicators*
+bot/output*
+candles/*
