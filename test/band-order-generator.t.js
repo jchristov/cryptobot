@@ -1,4 +1,4 @@
-const bandOrderGenerator = require("../order-generators/bollinger-band-generator.js");
+const bandOrderGenerator = require("../strategies/quad-band-strategy.js");
 const _ = require("lodash");
 const Bands = require('technicalindicators').BollingerBands;
 const util = require("../util/utils.js");

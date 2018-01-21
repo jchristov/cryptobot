@@ -23,6 +23,7 @@
     "bollinger-bands": "^3.0.1",
     "debug": "^3.1.0",
     "fs-jetpack": "^1.2.0",
+    "redux": "^3.7.2",
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
     "technicalindicators": "^1.0.21",
